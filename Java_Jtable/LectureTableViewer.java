@@ -23,7 +23,7 @@ public class LectureTableViewer extends JFrame {
 
         // 데이터 로드 버튼 추가
         JPanel controlPanel = new JPanel();
-        JButton loadButton = new JButton("Load Lectures");
+        JButton loadButton = new JButton("테이블 보기");
         controlPanel.add(loadButton);
 
         add(controlPanel, BorderLayout.NORTH);
